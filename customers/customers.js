@@ -22,7 +22,7 @@ app.post("/customer", (req, res)=>{
     }
     let customer = new Customer(newCustomer)
     customer.save().then(()=>{
-        res.send("customer created successfully")
+        res.send("new customer created successfully")
     }).catch((err)=>{
         if(err){
             throw err
