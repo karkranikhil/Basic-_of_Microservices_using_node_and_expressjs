@@ -72,13 +72,12 @@
 #### new order creation payload
 
    <pre>{
-   {
         "CustomerID":"5bbb5638f33f54d281d814e8",
         "BookID":"5bbb334378d687a34b3d79f8",
         "initialDate":"2018-09-15",
         "DeliveryDate":"2018-09-29"
     }
-}</pre>
+</pre>
 
 ### How to start microservice
 #### To start book service
