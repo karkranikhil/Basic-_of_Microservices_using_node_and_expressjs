@@ -14,19 +14,36 @@
 
 
 
-### Service 1 - Books
+## Service 1 - Books
 
 <p><b>Method - </b> POST</p>
 <p><b>Endpoint - </b> /book</p>
 <p><b>Description - </b> it will create a new book record in the DB</p>
 <p><b>Payload</b></p>
-  
-   {
+    <pre>{
    "title": "angular js from scratch",
     "author": "nik",
     "numberPages": 350,
     "publisher": "nixalar up"
-    }
+}</pre>
 <p><b>Response - </b>new book created successfully</p>    
-    
 
+| __SNO__ | __ENDPOINT__ | __METHOD__ |__DESCRIPTION__ |__PAYLOAD__ |__RESPONSE__|
+|-------------|------------|------------|------------|------------|------------|
+| 1         | /book     | POST      | it will create a new book record in the DB     | refer payload one    | "new book created successfully" |
+| 2         | /books     | GET      | Socclist all books in db     | NA      |return json of all books       |
+| 3         | /book/:id     | GET      | find book based on particular id     | NA      |return json of book with particular id      |
+| 4         | /book/:id     | DELETE      | it delete the particular book based on the id     | NA      | "book removed Successfully"      |
+
+
+
+#### payload one
+
+   <pre>{
+   "title": "angular js from scratch",
+    "author": "nik",
+    "numberPages": 350,
+    "publisher": "nixalar up"
+}</pre>
+
+### Response one 
