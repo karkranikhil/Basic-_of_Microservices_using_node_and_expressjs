@@ -12,3 +12,21 @@
 <p><b>mLab - </b> is the leading Database-as-a-Service for MongoDB</p>
 <p><b>Postman - </b>Postman is a great tool when trying to dissect RESTful APIs made by others or test ones you have made yourself. It offers a sleek user interface with which to make HTML requests, without the hassle of writing a bunch of code just to test an API's functionality.</p>
 
+
+
+### Service 1 - Books
+
+<p><b>Method - </b> POST</p>
+<p><b>Endpoint - </b> /book</p>
+<p><b>Description - </b> it will create a new book record in the DB</p>
+<p><b>Payload</b></p>
+  
+   {
+   "title": "angular js from scratch",
+    "author": "nik",
+    "numberPages": 350,
+    "publisher": "nixalar up"
+    }
+<p><b>Response - </b>new book created successfully</p>    
+    
+
